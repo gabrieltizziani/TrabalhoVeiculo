@@ -52,7 +52,7 @@ public class Caminhao extends Veiculo {
             case 1:
                 System.out.println("Digite a quantidade a ser carregada:");
                 double quantidadeCarregada = scanner.nextDouble();
-                if (quantidadeCarregada <= (getCarga() - Carga)) {
+                if (quantidadeCarregada <= Carga) {
                 Carga += quantidadeCarregada;
                 System.out.println("Carga carregada com sucesso. Carga atual: " + Carga);
                 } else {
