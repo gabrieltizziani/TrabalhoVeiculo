@@ -48,15 +48,34 @@ public class Caminhao extends Veiculo {
             case 0:
                 System.out.println("Voltando ao menu anterior...");
                 break;
+
             case 1:
-
+                System.out.println("Digite a quantidade a ser carregada:");
+                double quantidadeCarregada = scanner.nextDouble();
+                if (quantidadeCarregada <= (getCarga() - Carga)) {
+                Carga += quantidadeCarregada;
+                System.out.println("Carga carregada com sucesso. Carga atual: " + Carga);
+                } else {
+                System.out.println("Não é possível carregar essa quantidade, excede a capacidade máxima.");
+            }
+            break;
             case 2:
-
-
+                System.out.println("Digite a quantidade a ser descarregada:");
+                double quantidadeDescarregada = scanner.nextDouble();
+                if (quantidadeDescarregada <= Carga) {
+                    Carga -= quantidadeDescarregada;
+                    System.out.println("Carga descarregada com sucesso. Carga atual: " + Carga);
+                } else {
+                    System.out.println("Não é possível descarregar essa quantidade, não há carga suficiente.");
+                }
+                break;
+            default:
+                System.out.println("Opção inválida.");
+                break;
         }
-
-
     }
+
+
 
 
 }
