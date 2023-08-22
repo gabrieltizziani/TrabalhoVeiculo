@@ -19,4 +19,8 @@ public class Moto extends Veiculo {
     public void setCilindradas(int cilindradas) {
         Cilindradas = cilindradas;
     }
+
+    public void emitirSom() {
+        System.out.println("RANDANDANDANDANDANDAN PA PA PA!");
+    }
 }

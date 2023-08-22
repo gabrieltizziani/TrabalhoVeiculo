@@ -104,6 +104,7 @@ public class Main {
                     System.out.println("Menu de Seleção de funcionalidades da Moto");
                     System.out.println("1. Acelerar a moto");
                     System.out.println("2. Adicionar quilometragem");
+                    System.out.println("3. Barulho");
                     System.out.println("0. Sair");
                     System.out.print("Digite o valor referente a opção: ");
                     opcao3 = scanner.nextInt();
@@ -119,6 +120,7 @@ public class Main {
                             moto.addKm = scanner.nextDouble();
                             moto.AddKm();
                             break;
+                        case 3:
 
                         case 0:
                             System.out.println("Finalizando...");
