@@ -144,11 +144,11 @@ public class Main {
                 String modelo3 = scanner.next();
                 System.out.print("Marca: ");
                 String marca3 = scanner.next();
-                System.out.println("Qual a quilometragem: ");
+                System.out.print("Qual a quilometragem: ");
                 double quilometragem3 = scanner.nextDouble();
                 System.out.print("Qual o tipo de Carga: ");
                 String tipoDeCarga = scanner.next();
-                System.out.println("Qual capacidade máxima de carga:");
+                System.out.print("Qual capacidade máxima de carga:");
                 double carga = scanner.nextDouble();
                 System.out.print("Quantos eixos: ");
                 int eixos = scanner.nextInt();
@@ -159,7 +159,7 @@ public class Main {
                     System.out.println("Menu de Seleção de funcionalidades do Caminhão");
                     System.out.println("1. Acelerar o caminhão");
                     System.out.println("2. Adicionar quilometragem");
-                    System.out.println("3. Carga");
+                    System.out.println("3. Carga e Descarga");
                     System.out.println("0. Sair");
                     System.out.print("Digite o valor referente a opção: ");
                     opcao4 = scanner.nextInt();
