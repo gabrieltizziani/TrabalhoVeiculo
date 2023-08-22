@@ -20,7 +20,7 @@ public class Moto extends Veiculo {
         Cilindradas = cilindradas;
     }
 
-    public void emitirSom() {
+    public void barulho() {
         System.out.println("RANDANDANDANDANDANDAN PA PA PA!");
     }
 }

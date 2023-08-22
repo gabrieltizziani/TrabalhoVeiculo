@@ -121,6 +121,7 @@ public class Main {
                             moto.AddKm();
                             break;
                         case 3:
+                            moto.barulho();
 
                         case 0:
                             System.out.println("Finalizando...");
